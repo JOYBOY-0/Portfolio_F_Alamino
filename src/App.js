@@ -7,6 +7,7 @@ import Contact from './components/contact/Contact';
 import NotFound404 from './components/NotFound404';
 import HeaderNav from './components/HeaderNav/HeaderNav';
 import './app.css'
+
 function App() {
   return (
     <>
