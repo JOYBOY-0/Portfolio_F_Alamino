@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: TommySoft;
+    src: url(./TommySoft_bold.otf);
+  }
+  
+  @font-face {
+    font-family: TommySoft-thin;
+    src: url(./TommySoft_thin.otf);
+  }

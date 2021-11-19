@@ -1,0 +1,68 @@
+.btn{
+    @apply rounded-full py-2
+    text-center font-bold shadow
+    bg-gradient-to-t from-gray-200 to-gray-100
+    border-2 border-gray-100
+    active:scale-95;
+    transition: transform 200ms, box-shadow 200ms;
+  }
+
+  .btnNav{
+    @apply py-2
+    text-center font-bold shadow
+    bg-gradient-to-t from-gray-200 to-gray-100
+    border-2 border-gray-100
+    active:scale-95;
+    transition: transform 200ms, box-shadow 200ms;
+  }
+
+  .btn:hover{
+      transform: translateY(-3%);
+      @apply shadow-xl border-2 border-gray-200;
+  }
+
+  .btn-disabled{     
+    @apply rounded-full text-center 
+    border-2 border-gray-500 border-opacity-20 py-2
+    text-opacity-50 text-gray-500 relative cursor-not-allowed;
+    transition: all 100ms ease-in;
+
+  }
+
+  .btn-disabled::before{
+      opacity: 0;
+      content: 'Currently not available';
+      color: rgb(39, 39, 39);
+      height: 3rem;
+      padding: 1rem 0 2rem 0;
+      position: absolute;
+      top: 0;
+      background: rgb(240, 240, 240);
+      width: 10rem;
+      font-size: 0.7rem;
+      border-radius: 1rem;
+      transform: translateY(calc(-100% - 1rem));
+      transition: all 100ms ease-in;
+  }
+
+  .btn-disabled::after{
+      opacity: 0;
+      content: '';
+      position: absolute;
+      width: 1rem;
+      height: 1rem;
+      clip-path: polygon(50% 100%, 0 0, 100% 0);
+      background: rgb(240, 240, 240);
+      top: 0;
+      right: 50%;
+      transform: translate(50% , -100%);
+      transition: opacity 100ms ease-in;
+  }
+
+  .btn-disabled:hover::before{
+      opacity: 1;
+  }
+
+  .btn-disabled:hover::after{
+    opacity: 1;
+}

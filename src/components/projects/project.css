@@ -1,0 +1,27 @@
+:root{
+    --info: 100%;
+    --description: 100%;
+}
+
+@media (min-width: 1024px){
+    :root{
+        --info: calc(40% - 1rem);
+        --description: calc(60% - 1rem);
+    }
+}
+
+@media (min-width: 1280px) {
+    :root{
+        --angle: calc(-12deg);
+        --info: calc(30% - 1rem);
+        --description: calc(57% - 1rem);
+    }
+}
+
+@media (min-width: 1536px){
+    :root{
+        --angle: calc(-15deg);
+        --info: calc(30% - 1rem);
+        --description: calc(60% - 1rem);
+    }
+}
