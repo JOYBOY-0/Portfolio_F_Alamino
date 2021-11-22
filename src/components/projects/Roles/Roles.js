@@ -13,6 +13,10 @@ export default function Roles({role}) {
             return 'fas fa-dragon'
         } else if (choose === "Game Design"){
             return 'fas fa-dice'
+        } else if (choose === "Learning"){
+            return 'fas fa-book-reader'
+        } else if (choose === "Compromise"){
+            return 'fas fa-handshake'
         }
     }
 

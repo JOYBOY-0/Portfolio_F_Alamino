@@ -33,8 +33,9 @@
       opacity: 0;
       content: 'Currently not available';
       color: rgb(39, 39, 39);
-      height: 3rem;
       padding: 1rem 0 2rem 0;
+      display: block;
+      max-height: 3rem;
       position: absolute;
       top: 0;
       background: rgb(240, 240, 240);
