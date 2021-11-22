@@ -50,7 +50,7 @@ export default function AboutMe() {
 
         <section className="amSections 
         lg:items-start lg:justify-center">
-            <img src={anim2} alt='character-2'
+            <img src={anim4} alt='character-2'
             className="h-2/5 lg:h-9/10
             absolute -top-20 lg:top-8 lg:right-0" />
             <Container skew="br" w="var(--description)" h="h-5/6 sm:h-3/5 lg:h-full" 
@@ -140,20 +140,6 @@ export default function AboutMe() {
                             </li>
                         </ul>
                     </div>
-                </AmContent>
-            </Container>
-        </section>
-
-        <section className="amSections 
-        lg:items-start lg:justify-center">
-            <img src={anim4} alt='character-2'
-            className="sm:h-3/5 lg:h-9/10
-            absolute -top-4 lg:top-8 lg:right-0" />
-            <Container skew="br" w="var(--description)" h="h-4/6 sm:h-3/5 lg:h-full" 
-            round="rounded-2xl" extra=''>
-                <AmContent>
-                <h3 className="amTittles">Skills</h3>
-                
                 </AmContent>
             </Container>
         </section>
