@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../rehusable/container/Container'
 import anim1 from '../../images/MERCHANT_1.gif'
-import anim2 from '../../images/SCARECROW_1.gif'
+// import anim2 from '../../images/SCARECROW_1.gif'
 import anim3 from '../../images/MERCHANT_2.gif'
 import anim4 from '../../images/SCARECROW_2.gif'
 import dhLogo from '../../images/dh_logo.svg'
