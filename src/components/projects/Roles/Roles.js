@@ -17,6 +17,8 @@ export default function Roles({role}) {
             return 'fas fa-book-reader'
         } else if (choose === "Compromise"){
             return 'fas fa-handshake'
+        } else if (choose === "Creativity"){
+            return 'fas fa-lightbulb'
         }
     }
 
