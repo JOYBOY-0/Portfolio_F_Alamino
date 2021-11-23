@@ -1,4 +1,4 @@
-
+/* 
 @font-face {
     font-family: TommySoft;
     src: url(./TommySoft_bold.otf);
@@ -8,3 +8,15 @@
     font-family: TommySoft-thin;
     src: url(./TommySoft_thin.otf);
   }
+
+   */
+
+
+@font-face {
+  font-family: 'TommySoft';
+  src: url('tommysoft_bold-webfont.woff2') format('woff2'),
+       url('tommysoft_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
