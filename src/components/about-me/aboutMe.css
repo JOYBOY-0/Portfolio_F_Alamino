@@ -1,5 +1,5 @@
 .amSections{
-    @apply h-85vh md:h-80vh 
+    @apply h-screen md:h-80vh 
     p-4 md:p-8 mt-15vh md:mt-20vh flex
     flex flex-col relative
     justify-end items-center;
@@ -41,7 +41,7 @@
 }
 
 .timelinePoints{
-    @apply flex items-center mx-2 my-3 relative;
+    @apply flex items-center mx-4 my-3 relative;
 }
 
 .timelinePoints::before{
@@ -52,11 +52,11 @@
 
 .formationT{
     @apply font-semibold text-gray-600
-    text-lg lg:text-xl
+    text-base xs:text-lg lg:text-xl
 }
 
 .formationImg{
-    @apply w-16 ml-4
+    @apply w-10 xs:w-16 ml-4
 }
 
 .formationP{

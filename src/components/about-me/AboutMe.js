@@ -19,7 +19,7 @@ export default function AboutMe() {
             <img src={anim1} alt='character-2'
             className="h-2/5 lg:h-9/10
             absolute -top-20 lg:top-8 lg:left-0" />
-            <Container skew="bl" w="var(--description)" h="h-5/6 sm:h-3/5 lg:h-full" 
+            <Container skew="bl" w="var(--description)" h="h-5/6 lg:h-full" 
             round="rounded-2xl" extra=''>
                 <AmContent>
                 <h3 className="amTittles text-right">About me</h3>
@@ -53,14 +53,14 @@ export default function AboutMe() {
             <img src={anim4} alt='character-2'
             className="h-2/5 lg:h-9/10
             absolute -top-20 lg:top-8 lg:right-0" />
-            <Container skew="br" w="var(--description)" h="h-5/6 sm:h-3/5 lg:h-full" 
+            <Container skew="br" w="var(--description)" h="h-5/6 lg:h-full" 
             round="rounded-2xl" extra=''>
                 <AmContent>
                 <h3 className="amTittles">Skills</h3>
                 <div className="flex flex-col my-auto w-9/10">
                     <div className="flex items-center
-                    justify-start my-2">
-                        <p className="skillsTittleO">
+                    justify-start my-2 w-full">
+                        <p className="skillsTittleO flex-shrink-0">
                             Tech
                         </p>
                         <div className="flex items-center flex-wrap">
@@ -72,8 +72,8 @@ export default function AboutMe() {
                     </div>
                     
                     <div className="flex items-center
-                    justify-start my-2">
-                        <p className="skillsTittleB">
+                    justify-start my-2 w-full">
+                        <p className="skillsTittleB flex-shrink-0">
                             Design
                         </p>
                         <div className="flex items-center flex-wrap">
@@ -84,11 +84,11 @@ export default function AboutMe() {
                         </div>   
                     </div>
                     <div className="flex items-center
-                    justify-start my-2">
-                        <p className="skillsTittleV">
-                            Soft Skills
+                    justify-start my-2 w-full">
+                        <p className="skillsTittleV flex-shrink-0">
+                            Soft <br/> Skills
                         </p>
-                        <div className="flex items-center justify-around flex-wrap">
+                        <div className="flex items-center flex-wrap">
                             <Roles role="Leadership" />
                             <Roles role="Learning" />
                             <Roles role="Compromise" />
@@ -100,18 +100,16 @@ export default function AboutMe() {
             </Container>
         </section>
 
-        <section className="h-85vh md:h-80vh 
-        p-4 md:p-8 mt-15vh md:mt-20vh flex
-        flex flex-col relative
-        justify-end items-center lg:items-end lg:justify-center">
+        <section className="amSections
+        lg:items-end lg:justify-center">
             <img src={anim3} alt='character-3'
             className="h-2/5 lg:h-9/10
             absolute -top-20 lg:top-8 lg:left-0" />
-            <Container skew="bl" w="var(--description)" h="h-5/6 sm:h-3/5 lg:h-full" 
+            <Container skew="bl" w="var(--description)" h="h-5/6 lg:h-full" 
             round="rounded-2xl" extra=''>
                 <AmContent>
                     <h3 className="amTittles text-right">Formation</h3>
-                    <div className="w-9/10 my-auto">
+                    <div className="w-full xs:w-9/10 my-auto">
                         <ul className="flex flex-col">
                             <li className="timelinePoints">
                                 <img src={dhLogo} alt="Digital House"
