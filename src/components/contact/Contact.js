@@ -20,14 +20,14 @@ export default function Contact() {
                         text-5xl md:text-6xl text-gray-700"></i>
                     </li>
                 </a>
-                <a href="https://www.linkedin.com/in/francisco-alamino/" rel="noreferrer" target="_blank">
+                <a href="tel:+5491138553587">
                     <li className="flex items-center justify-end mb-4">
                         <p className="mr-4 text-lg text-gray-700 font-semibold">Call me</p>
                         <i className="fas fa-phone-square 
                         text-5xl md:text-6xl text-gray-700"></i>
                     </li>
                 </a>
-                <a href="https://www.linkedin.com/in/francisco-alamino/" rel="noreferrer" target="_blank">
+                <a href="mailto:falamino00@gmail.com">
                     <li className="flex items-center justify-end mb-4">
                         <p className="mr-4 text-lg text-gray-700 font-semibold">Write me</p>
                         <i className="fas fa-envelope 
