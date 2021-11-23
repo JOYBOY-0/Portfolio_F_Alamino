@@ -36,9 +36,6 @@ module.exports = {
 
 
       },
-      fontFamily: {
-        sans: 'Poppins'
-      },
     },
     screens: {
       'xs': '425px',

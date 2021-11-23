@@ -12,7 +12,7 @@ export default function Pagination({eff, onClick}) {
             active:scale-95">
                 
                 <Container skew="tr" w="100%" round="rounded-xl">
-                    <p className="h-full my-4 text-gray-500">PREV</p>
+                    <p className="h-full my-4 text-gray-500 font-bold">PREV</p>
                     <div className="w-5/6 h-12 absolute
                     bottom-2 right-1/2 transform translate-x-1/2
                     shadow-inner rounded-2xl
@@ -32,7 +32,7 @@ export default function Pagination({eff, onClick}) {
             active:scale-95">
 
                 <Container skew="bl" w="100%" round="rounded-xl">
-                    <p className="h-full my-4 text-gray-500">NEXT</p>
+                    <p className="h-full my-4 text-gray-500 font-bold">NEXT</p>
                     <div className="w-5/6 h-12 absolute
                     bottom-2 right-1/2 transform translate-x-1/2
                     shadow-inner rounded-2xl

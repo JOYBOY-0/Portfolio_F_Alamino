@@ -30,8 +30,3 @@ nav{
 .navbarLink:hover{
   @apply opacity-100;
 }
-
-@media (min-width: 1024px){
-
-}
-
